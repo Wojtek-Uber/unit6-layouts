@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic Layout Practice</title>
     <style>
-  
+      #nav-list {
+        list-style: none;
+      }
     </style>
     <link  href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Website Title</h1>
+      <h1 class="heading">Website Title</h1>
       <nav>
-        <ul>
+        <ul id="nav-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
@@ -28,8 +30,13 @@
       </aside>
       
       <section>
-        <h2>Main Section</h2>
+        <h2 class="heading">Main Section</h2>
         <p>This is the main content area.</p>
+        <ul id="section-list">
+          <li>Point 1</li>
+          <li>Point 2</li>
+          <li>Point 3</li>
+        </ul>
       </section>
     </main>
 
