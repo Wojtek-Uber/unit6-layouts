@@ -28,3 +28,11 @@ section {
 
   background-color: #f5cbcb;
 }
+aside {
+  position: relative;
+}
+
+aside h3 {
+  position: relative;
+  left: 10px;
+}
